@@ -1,0 +1,11 @@
+In this folder are all the scripts that were used to create and manipulate our dataset.
+
+Art_Style_Transfer_Airplanes.ipynb : Google Colab script (Jupyter notebook) to add the art style randomly to each image and change the image captions. Must include COCO_Airplanes_Art_style_transfer.py in the Colab environment.
+
+COCO_Airplanes_Art_style_transfer.py : Python script with all the code necessary to apply the art style and change the caption. All dependecies that are needed are added within the Colab script.
+
+Compress_Images.py : Script to compress the images while still retaining most of the definition. Useful to handle the dataset and train on it since it will be smaller.
+
+CreateTrainableSet.py : Used to create a folder with the images and a .txt file with all the captions to train our DALL-E model with.
+
+QueryDataset.py : Thouroughly commented code that explains how to query and manipulate our dataset (based off COCO).
