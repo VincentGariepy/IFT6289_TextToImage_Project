@@ -1,0 +1,7 @@
+These are the scripts used to create our baseline model.
+
+GLIDE_Notebook.ipynb : Google Colab script to run the GLIDE Text-to-Image generation pre-trained model.
+
+Art_Style_PaddleGAN_Notebook.ipynb : Google Colab script to run the PaddleGAN art style transfer pre-trained model.
+
+BaseModel_Text2Image_ArtStyle.ipynb : Combination of both models to have a image with art style generated from text and a reference image.
